@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Tajawal", sans-serif;
+  src: url("~@/assets/fonts/Tajawal-Black.ttf");
+  src: url("~@/assets/fonts/Tajawal-Bold.ttf");
+  src: url("~@/assets/fonts/Tajawal-ExtraBold.ttf");
+  src: url("~@/assets/fonts/Tajawal-ExtraLight.ttf");
+  src: url("~@/assets/fonts/Tajawal-Light.ttf");
+  src: url("~@/assets/fonts/Tajawal-Medium.ttf");
+  src: url("~@/assets/fonts/Tajawal-Regular.ttf");
+}
+
+$primary: #00a3ff;
+$gray-color: rgba(0, 0, 0, 0.25);
+.primary-btn {
+  background: conic-gradient(from 90deg, #7bb83f, #8dc53e);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 50px;
+  :hover {
+    color: #fff;
+  }
+}
+.container {
+  max-width: 960px;
+  /* Your other container styles here */
+}
+
+/* Custom class for container-fluid */
+.container-fluid {
+  max-width: none;
+  /* Your other container-fluid styles here */
+}
+
+/* Media query for viewport width 1200px and above */
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+  .container-fluid {
+    max-width: none;
+  }
+}
+a {
+  text-decoration: none;
+}
