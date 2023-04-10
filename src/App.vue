@@ -8,7 +8,6 @@
 </template>
 
 <script>
-// @import '~vuetify/styles/main.sass';
 import HeaderView from "@/components/header/header.vue";
 export default {
   name: "App",

@@ -115,19 +115,21 @@
                   <li id="" class="">
                     <a
                       href="http://academicprogs.iugaza.edu/"
-                      class="primary-btn"
+                      class="primary-btn-green"
                       >Staff Portal</a
                     >
                   </li>
                   <li id="" class="ms-2">
-                    <a href="http://portal.iugaza.edu.ps/" class="primary-btn"
+                    <a
+                      href="http://portal.iugaza.edu.ps/"
+                      class="primary-btn-green"
                       >Student Portal</a
                     >
                   </li>
                 </ul>
               </div>
               <div class="search-header position-relative">
-                <button type="button " class="searchBtn primary-btn">
+                <button type="button " class="searchBtn primary-btn-green">
                   <i class="fa fa-search" @click="toggleSearchForm"></i>
                 </button>
                 <div

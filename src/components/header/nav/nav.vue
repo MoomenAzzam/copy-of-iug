@@ -36,21 +36,21 @@
             <li
               itemscope="itemscope"
               itemtype="https://www.schema.org/SiteNavigationElement"
-              class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item activeItemItem menu-item-17619 nav-item"
+              class="menu-item"
             >
               <!-- http://www.iugaza.edu.ps/en -->
               <router-link
                 title="Home"
                 class="nav-link"
-                to="/home"
-                :class="{ activeItem: $route.path == '/home' }"
+                to="/"
+                :class="{ activeItem: $route.path == '/' }"
                 >Home</router-link
               >
             </li>
             <li
               itemscope="itemscope"
               itemtype="https://www.schema.org/SiteNavigationElement"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17620 nav-item"
+              class="menu-item"
             >
               <!-- href="https://www.iugaza.edu.ps/en/about-iug/" -->
               <router-link
@@ -64,7 +64,7 @@
             <li
               itemscope="itemscope"
               itemtype="https://www.schema.org/SiteNavigationElement"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17621 nav-item"
+              class="menu-item"
             >
               <router-link
                 title="Faculties"
@@ -77,7 +77,7 @@
             <li
               itemscope="itemscope"
               itemtype="https://www.schema.org/SiteNavigationElement"
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17938 nav-item"
+              class="menu-item"
             >
               <router-link
                 title="External Relations"
@@ -90,7 +90,7 @@
             <li
               itemscope="itemscope"
               itemtype="https://www.schema.org/SiteNavigationElement"
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17939 nav-item"
+              class="menu-item"
             >
               <router-link
                 title="Research"
@@ -221,7 +221,6 @@ export default {
   .menu-wrap {
     height: 100px;
     margin-top: 55px;
-    margin-bottom: 12px;
     .navbar-brand {
       height: 106px;
     }
