@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>ecternal Relations Views</h1>
+  <div class="content">
+    <iframe src="https://exrelation.iugaza.edu.ps" frameborder="0"></iframe>
   </div>
 </template>
 
@@ -10,4 +10,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+iframe,
+.content {
+  width: 100%;
+  height: 100%;
+}
+</style>

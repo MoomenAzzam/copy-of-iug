@@ -10,7 +10,7 @@
           <!-- href="https://www.iugaza.edu.ps/en/" -->
           <img
             class="logo"
-            src="https://www.iugaza.edu.ps/wp-content/uploads/2021/09/logo.png"
+            :src="require('@/assets/images/home/logo.png')"
             alt="الجامعة الإسلامية بغزة"
           />
           <h1 class="d-none d-lg-block slogan site-title-seo">

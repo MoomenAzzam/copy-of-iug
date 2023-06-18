@@ -1,5 +1,7 @@
 <template>
-  <h1>Research</h1>
+  <div class="container">
+    <h1>Research : this page not work in the main website</h1>
+  </div>
 </template>
 
 <script>

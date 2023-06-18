@@ -23,7 +23,10 @@
                   <a
                     href="https://www.iugaza.edu.ps/en/conference/8th-international-engineering-conference-for-renewable-energy-and-sustainability/"
                   >
-                    <time>&nbsp;8th -9th May 2023</time>
+                    <time
+                      >8th -9th <br />
+                      May 2023</time
+                    >
                   </a>
                 </div>
                 <div class="post-info">
@@ -84,7 +87,10 @@
                   "
                 >
                   <a href="https://www.iugaza.edu.ps/en/project/pro17949/">
-                    <time class="secound"><span>15</span>September 2021 </time>
+                    <time class="secound"
+                      ><span>15</span>September <br />
+                      2021
+                    </time>
                   </a>
                 </div>
                 <div class="post-info">
@@ -107,7 +113,10 @@
                   "
                 >
                   <a href="https://www.iugaza.edu.ps/en/project/pro17948/">
-                    <time class="secound"><span>15</span>September 2021 </time>
+                    <time class="secound"
+                      ><span>15</span>September <br />
+                      2021
+                    </time>
                   </a>
                 </div>
                 <div class="post-info">
@@ -170,7 +179,11 @@ export default {
         text-align: center;
         font-weight: 700;
         border-radius: 0 5px 0 5px;
-        font-size: 15px;
+        font-size: 14px;
+        span {
+          display: block;
+          font-size: 24px;
+        }
       }
       .secound {
         background-color: #00a3ff;
@@ -199,7 +212,7 @@ export default {
       line-height: 26px;
       font-size: 17px;
       a {
-        line-height: 30px;
+        line-height: 24px;
         color: black;
         transition: all 0.2s;
         text-decoration: none;
@@ -210,4 +223,69 @@ export default {
 .post-item:hover .post-info a {
   color: #7bb83f;
 }
+@media screen and (max-width: 576px) {
+  .post-item {
+    .post-info {
+      min-height: 50px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .post-item {
+    .post-info {
+      h3 {
+        a {
+          line-height: 30px;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+// @media (max-width: 576px) {
+//   .post-info {
+//     min-height: 50px;
+//   }
+//   /* Styles for screens larger than or equal to 576px wide */
+// }
+
+// @media (max-width: 768px) {
+// }
+
+// @media (max-width: 992px) {
+//   // .post-info {
+//   //   background: red;
+//   //   min-height: 195px;
+//   //   h3 {
+//   //     a {
+//   //       font-size: 17px;
+//   //       line-height: 30px;
+//   //     }
+//   //   }
+//   // }
+// }
+
+// @media (max-width: 1200px) {
+//   .post-info {
+//     min-height: 195px;
+//     background: rgba(0, 0, 255, 0.211);
+//     h3 {
+//       a {
+//         font-size: 17px;
+//         line-height: 30px;
+//       }
+//     }
+//   }
+// }
+// @media (min-width: 1200px) {
+//   .post-info {
+//     min-height: 195px;
+//     h3 {
+//       a {
+//         font-size: 15px;
+//         line-height: 30px;
+//       }
+//     }
+//   }
+// }
 </style>
